@@ -6,7 +6,7 @@ module.exports = function(app) {
       const response = await axios.get('https://api.nekorinn.my.id/nsfwhub/cumsluts');
       res.json({
         status: true,
-        creator: "RyuuXiao",
+        creator: "RyuXChristian",
         result: response.data.result
       });
     } catch (error) {

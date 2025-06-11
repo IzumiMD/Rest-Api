@@ -6,13 +6,13 @@ module.exports = function(app) {
       const response = await axios.get('https://api.nekorinn.my.id/nsfwhub/black');
       res.status(200).json({
         status: true,
-        creator: "RyuuXiao",
+        creator: "RyuXChristian",
         result: response.data.result
       });
     } catch (error) {
       res.status(500).json({
         status: false,
-        creator: "RyuuXiao",
+        creator: "RyuXChristian",
         message: error.message
       });
     }

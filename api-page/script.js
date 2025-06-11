@@ -211,10 +211,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         // Set page content from settings with fallbacks
         const currentYear = new Date().getFullYear();
-        setContent('page', 'textContent', settings.name, "Falcon-Api");
-        setContent('wm', 'textContent', `© ${currentYear} ${settings.apiSettings?.creator || 'AllxdDev'}. All rights reserved.`);
-        setContent('header', 'textContent', settings.name, "AllxdDev UI");
-        setContent('name', 'textContent', settings.name, "AllxdDev UI");
+        setContent('page', 'textContent', settings.name, "Fumio-Api");
+        setContent('wm', 'textContent', `© ${currentYear} ${settings.apiSettings?.creator || 'Ryuxzy'}. All rights reserved.`);
+        setContent('header', 'textContent', settings.name, "FumioAI UI");
+        setContent('name', 'textContent', settings.name, "FumioAI UI");
         setContent('sideNavName', 'textContent', settings.name || "API");
         setContent('version', 'textContent', settings.version, "v1.0");
         setContent('versionHeader', 'textContent', settings.header?.status, "Active!");
